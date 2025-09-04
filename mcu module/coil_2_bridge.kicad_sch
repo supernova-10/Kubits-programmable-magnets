@@ -1,0 +1,208 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "18c9947b-f2f5-403c-9c48-3253d2a2477c")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 113.03 76.2) (xy 113.03 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aed360d-8bce-407e-869a-1fc72fe7c895")
+	)
+	(wire
+		(pts
+			(xy 118.11 76.2) (xy 113.03 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "479e8fe8-1aa1-443e-9fc0-5f7f4e2af82f")
+	)
+	(wire
+		(pts
+			(xy 113.03 123.19) (xy 118.11 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f70dec6-8e41-4db8-ac00-e52bccc5e701")
+	)
+	(wire
+		(pts
+			(xy 115.57 115.57) (xy 118.11 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f6b7b5-4115-40d8-bd5a-af9bfff9edfd")
+	)
+	(wire
+		(pts
+			(xy 118.11 67.31) (xy 115.57 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adbcd592-024c-4d2e-b7fe-d844cc7dd8ec")
+	)
+	(wire
+		(pts
+			(xy 115.57 67.31) (xy 115.57 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eef5c6fb-ff20-4239-83e3-51ff70e6d67e")
+	)
+	(hierarchical_label "VLIN2"
+		(shape input)
+		(at 113.03 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "80ec5d1e-c85e-473d-932b-7696bae23ec7")
+	)
+	(hierarchical_label "VHIN2"
+		(shape input)
+		(at 115.57 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fc1de439-a310-47aa-8b1c-4149ce4fe9c4")
+	)
+	(sheet
+		(at 118.11 59.69)
+		(size 50.8 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9628156a-39d2-484d-9693-3edaa3193eb2")
+		(property "Sheetname" "upperhalf_coil2"
+			(at 118.11 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "upperhalf_coil2.kicad_sch"
+			(at 118.11 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VHIN2" input
+			(at 118.11 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c328f4fb-818b-4a56-8d85-1a2c56c3125d")
+		)
+		(pin "VLIN2" input
+			(at 118.11 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "08bd9325-3513-4048-9e77-26f9246d7310")
+		)
+		(instances
+			(project "simulatedpcb"
+				(path "/edf94242-0cdc-4580-8fae-fd56a0fef1a3/4ef6125f-d48c-4cdc-8ecc-782b01e6efd7"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 107.95)
+		(size 50.8 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c535be32-88b2-4136-9db1-2c637c5fea54")
+		(property "Sheetname" "lowerhalf_coil2"
+			(at 118.11 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lowerhalf_coil2.kicad_sch"
+			(at 118.11 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VLIN2" input
+			(at 118.11 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a722c63c-1bca-4701-a5c5-db9220a16c13")
+		)
+		(pin "VHIN2" input
+			(at 118.11 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2b36a1fa-f1c0-4cc7-abb4-eb37b240b60e")
+		)
+		(instances
+			(project "simulatedpcb"
+				(path "/edf94242-0cdc-4580-8fae-fd56a0fef1a3/4ef6125f-d48c-4cdc-8ecc-782b01e6efd7"
+					(page "8")
+				)
+			)
+		)
+	)
+)
